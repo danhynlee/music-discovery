@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "music-discovery"
+version = "0.1.0"
+description = "Recommend similar artists you haven't heard yet, with a short AI-written reason for each."
+readme = "CLAUDE.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "pydantic>=2",
+    "python-dotenv",
+    "typer",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-socket",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/discover"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --disable-socket"
