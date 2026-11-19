@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "music-discovery"
 version = "0.1.0"
 description = "Recommend similar artists you haven't heard yet, with a short AI-written reason for each."
-readme = "CLAUDE.md"
+readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "requests",
