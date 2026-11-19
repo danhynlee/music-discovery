@@ -1,0 +1,37 @@
+{
+  "similarartists": {
+    "artist": [
+      {
+        "name": "Sonny & Cher",
+        "mbid": "",
+        "match": "1",
+        "url": "https://www.last.fm/music/Sonny+&+Cher",
+        "image": [
+          {"#text": "", "size": "small"},
+          {"#text": "", "size": "medium"},
+          {"#text": "", "size": "large"},
+          {"#text": "", "size": "extralarge"},
+          {"#text": "", "size": "mega"}
+        ],
+        "streamable": "0"
+      },
+      {
+        "name": "Madonna",
+        "mbid": "",
+        "match": "0.62",
+        "url": "https://www.last.fm/music/Madonna",
+        "image": [{"#text": "", "size": "small"}],
+        "streamable": "0"
+      },
+      {
+        "name": "Kylie Minogue",
+        "mbid": "",
+        "match": "0.5873",
+        "url": "https://www.last.fm/music/Kylie+Minogue",
+        "image": [{"#text": "", "size": "small"}],
+        "streamable": "0"
+      }
+    ],
+    "@attr": {"artist": "Cher"}
+  }
+}
